@@ -1,12 +1,11 @@
 # wrap_gobuster
 
-Wrapper script for gobuster
+Wrapper script for gobuster<br/>
 
-Syntax: wrap_gobuster.sh -u URLs_file  -w wordlist [ -t threads | -d results_folder | -h ]
+Syntax: wrap_gobuster.sh -u URLs_file  -w wordlist [ -t threads | -d results_folder | -h ]<br/>
 
-options:
-u     the file with the target URLs
-w     the wordlist
-d     the directory where to write the results
-h     print the help
-
+-u     the file with the target URLs<br/>
+-w     the wordlist<br/>
+-t     the threads<br/>
+-d     the directory where to write the results<br/>
+-h     print the help<br/>
