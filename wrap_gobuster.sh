@@ -44,13 +44,9 @@ fi
  
 
 #the main loop
-i=1
-total=$(wc -l $URLs_file|awk '{print $1}')
- 
 while IFS= read -r URL
 do
     log=`echo $URL|cut -d '/' -f3`
     log_file="$results_folder/$log.log"
     gobuster dir -k -u $URL -w $wordlist -x .html,.jsp,.jsf,.php,.txt,.zip -o $log_file -t $threads
-    ((i=i+1))
 done < "$URLs_file"
