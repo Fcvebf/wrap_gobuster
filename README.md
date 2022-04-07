@@ -1,5 +1,7 @@
 # wrap_gobuster
 
+A simple wrapper scipt in case you need to scan a bunch of web applications. Can be customized to your preferred tool (ffuf,dirb etc)
+
 Wrapper script for gobuster<br/>
 
 Syntax: wrap_gobuster.sh -u URLs_file  -w wordlist [ -t threads | -d results_folder | -h ]<br/>
