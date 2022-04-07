@@ -9,3 +9,4 @@ u     the file with the target URLs
 w     the wordlist
 d     the directory where to write the results
 h     print the help
+
